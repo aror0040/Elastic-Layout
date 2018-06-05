@@ -1,0 +1,68 @@
+
+
+/*
+h1{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+p{
+	line-height: 1.4;  /*no unit value,lineheight is relative value*/
+	/*font-size: 2em;  */    /* lineheight 1.4 times the value
+}
+*/
+
+.wrapper{
+	width: 80%;
+	margin: 2em auto;
+}
+
+body { 
+	font-family:Arial, Helvetica, sans-serif; 
+	background-color: #caddef;
+	color: #000;
+}
+
+h1{
+	font-family: 'alex_brushregular';
+	font-size: 250%;
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article{
+	width:42%;
+	padding-left: 4%;
+	padding-right: 4%;
+	/* padding:0 4%;   */
+
+	margin; 0;
+	float: left;
+	min-width: 160px;
+	background-color: #caddef;
+
+}
+
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article img{
+	max-width: 100%;
+	height: auto;   
+}
+
+footer{
+	font-family: 'Playfair Display', serif;
+	clear: both; /*  floating off  */
+}
